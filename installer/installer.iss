@@ -2,11 +2,11 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "NoiseModelling"
-#define MyAppVersion "3.3.2"
+#define MyAppVersion "3.4.4"
 #define MyAppPublisher "NoisePlanet"
 #define MyAppURL "https://noise-planet.org/noisemodelling.html"     
 #define MyAppExeName "NoiseModelling.exe"
-#define JRE "jre1.8.0_281"
+#define JRE "jdk-11"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
