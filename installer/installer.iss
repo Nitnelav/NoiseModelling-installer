@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "NoiseModelling"
-#define MyAppVersion "3.4.4"
+#define MyAppVersion "4.0.0"
 #define MyAppPublisher "NoisePlanet"
 #define MyAppURL "https://noise-planet.org/noisemodelling.html"     
 #define MyAppExeName "NoiseModelling.exe"
