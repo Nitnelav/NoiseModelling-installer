@@ -6,7 +6,7 @@
 #define MyAppPublisher "NoisePlanet"
 #define MyAppURL "https://noise-planet.org/noisemodelling.html"     
 #define MyAppExeName "NoiseModelling.exe"
-#define JRE "jdk-11"
+#define JRE "java-min-11"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
