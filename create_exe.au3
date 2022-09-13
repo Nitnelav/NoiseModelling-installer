@@ -6,5 +6,5 @@
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
 EnvSet("JAVA_HOME", @WorkingDir & "\java-min-11")
-FileChangeDir(".\NoiseModelling_4.0.0\bin")
+FileChangeDir(".\NoiseModelling_4.0.1\bin")
 Run(".\startup_windows.bat")
