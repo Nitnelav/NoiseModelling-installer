@@ -10,8 +10,8 @@
 FileChangeDir(@ScriptDir)
 
 EnvSet("JAVA_HOME", @WorkingDir & "\java-min-11")
-EnvSet("GEOSERVER_HOME", @WorkingDir & "\NoiseModelling_4.0.5")
-EnvSet("GEOSERVER_DATA_DIR", @WorkingDir & "\NoiseModelling_4.0.5\data_dir")
+EnvSet("GEOSERVER_HOME", @WorkingDir & "\NoiseModelling_5.0.0")
+EnvSet("GEOSERVER_DATA_DIR", @WorkingDir & "\NoiseModelling_5.0.0\data_dir")
 
 ConsoleWrite(@CRLF)
 ConsoleWrite("TEMPORARY SET JAVA_HOME: " & EnvGet("JAVA_HOME") & @CRLF)
@@ -19,7 +19,7 @@ ConsoleWrite("TEMPORARY SET GEOSERVER_HOME: " & EnvGet("GEOSERVER_HOME") & @CRLF
 ConsoleWrite("TEMPORARY SET GEOSERVER_DATA_DIR: " & EnvGet("GEOSERVER_DATA_DIR") & @CRLF)
 ConsoleWrite(@CRLF)
 
-FileChangeDir(".\NoiseModelling_4.0.5\bin")
+FileChangeDir(".\NoiseModelling_5.0.0\bin")
 
 ;~ probably not worth it but make the startup_windows.bat script properly detect the GEOSERVER_HOME
 Local $sFilePath = @WorkingDir & "\startup.bat"
